@@ -1,0 +1,81 @@
+.typing_container {
+  display: flex;
+  position: absolute;
+  width: 48%;
+  left: 7%;
+  top: 24%;
+}
+
+.typewriter {
+  width: 0;
+  font-size: 1rem;
+  font-family: "Anonymous Pro", monospace;
+  color: white;
+  overflow: hidden;
+  border-right: 0.15em solid #f7cc47;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
+  animation: typing 2s steps(20, end) forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #f7cc47;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .typewriter {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1160px) and (max-width: 1299px) {
+  .typewriter {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1159px) {
+  .typewriter {
+    font-size: 1.15rem;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1019px) {
+  .typewriter {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 899px) {
+  .typewriter {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 779px) {
+  .typewriter {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 530px) and (max-width: 619px) {
+  .typewriter {
+    font-size: 1.2rem;
+  }
+}

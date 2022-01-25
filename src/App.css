@@ -1,0 +1,19 @@
+.container_1 {
+  height: 100vh;
+  background-color: #8b5d5d;
+
+  /* grid display */
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.intro {
+  position: relative;
+}
+
+.intro_img {
+  width: 90%; /* scale with the container */
+}
