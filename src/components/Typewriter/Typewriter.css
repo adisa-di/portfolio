@@ -41,7 +41,19 @@
 
 /* Scale font size according to screen */
 
-@media only screen and (min-width: 1330px) {
+@media only screen and (min-width: 1700px) {
+  .typewriter {
+    font-size: 1.9rem;
+  }
+}
+
+@media only screen and (min-width: 1550px) and (max-width: 1699px) {
+  .typewriter {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1330px) and (max-width: 1549px) {
   .typewriter {
     font-size: 1.3rem;
   }
