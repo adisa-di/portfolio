@@ -3,11 +3,12 @@
   position: absolute;
   width: 48%;
   left: 7%;
-  top: 24%;
+  top: 25%;
 }
 
 .typewriter {
   width: 0;
+  font-weight: 400;
   font-size: 1rem;
   font-family: "Anonymous Pro", monospace;
   color: white;
