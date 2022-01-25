@@ -5,7 +5,6 @@
   /* grid display */
   display: grid;
   align-items: center;
-  justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
@@ -14,5 +13,11 @@
 }
 
 .intro_img {
+  padding-left: 30px;
+  padding-right: 30px;
   width: 90%; /* scale with the container */
+}
+
+.paragraph {
+  margin-right: 70px;
 }
