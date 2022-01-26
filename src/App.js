@@ -18,16 +18,14 @@ function App() {
           <img src={img} alt='intro_img' className='intro_img'/>
         </div>
         <div>
-          {/* <div>Hello</div> */}
           <Header text="ADISA NARULA"/>
           <Title text="Full-Stack Engineer"/>
           <div className="paragraph">
             <Normal text="Thanks for stopping by. Here's some quick info about me:  I'm a Full-Stack Engineer with experiences working in React + Redux, Typescript, and Javascript, among other technologies. 
-                          Some of my favorite things in life include my Boston Terrier, hiking, and making pizza. If you would like to know more, feel free to browse around and reach out."
+                          Some of my favorite things in life include my Boston Terrier, hiking, and making pizza. If you would like to know more, browse around and reach out!"
             />
           </div>
           <Spacer spacing="30px"/>
-
           <Icon link="https://github.com/adisa-di">
             <FaGithubAlt/>
           </Icon>
@@ -37,10 +35,8 @@ function App() {
           <Icon link="mailto:adisan19@gmail.com">
             <SiGmail/>
           </Icon>
-
           <Spacer spacing="30px"/>
-        
-          <Button width="200px"/>
+          <Button text="SEE MY WORK"/>
         </div>
       </div>
     </div>
