@@ -1,6 +1,6 @@
 .container_1 {
   height: 100vh;
-  background-color: #8b5d5d;
+  background-color: #6f4c5b;
 
   /* grid display */
   display: grid;
@@ -15,7 +15,7 @@
 .intro_img {
   padding-left: 30px;
   padding-right: 30px;
-  width: 90%; /* scale with the container */
+  width: 88%; /* scale with the container */
 }
 
 .paragraph {

@@ -1,8 +1,13 @@
 import './App.css';
 
-import img from './assets/images/intro_img.png'
+import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
+import { Icon } from './components/Icon/Icon';
+import img from './assets/images/intro_img.png';
 import { Header, Title, Normal } from './components/Text';
 import { TypeWriter } from './components/Typewriter/Typewriter';
+import { Spacer } from './components/Spacer/Spacer';
+import { Button } from './components/Button/Button';
 
 function App() {
   return (
@@ -21,11 +26,21 @@ function App() {
                           Some of my favorite things in life include my Boston Terrier, hiking, and making pizza. If you would like to know more, feel free to browse around and reach out."
             />
           </div>
+          <Spacer spacing="30px"/>
+
+          <Icon link="https://github.com/adisa-di">
+            <FaGithubAlt/>
+          </Icon>
+          <Icon link="https://www.linkedin.com/in/adisanarula/">
+            <FaLinkedinIn/>
+          </Icon>
+          <Icon link="mailto:adisan19@gmail.com">
+            <SiGmail/>
+          </Icon>
+
+          <Spacer spacing="30px"/>
         
-          {/* <div>Full Stack Engineer</div>
-          <div>Hello! Welcome to my portfolio. Feel free to browse around and reach out if you have any questions! </div>
-          <div>Social Icon</div>
-          <div>See work button</div> */}
+          <Button width="200px"/>
         </div>
       </div>
     </div>
