@@ -8,11 +8,12 @@ import { Header, Title, Normal } from './components/Text';
 import { TypeWriter } from './components/Typewriter/Typewriter';
 import { Spacer } from './components/Spacer/Spacer';
 import { Button } from './components/Button/Button';
+import { Resume } from './components/Resume/Resume';
 
 function App() {
   return (
     <div className='App'>
-      <div className='container_1'>
+      <div className='section_1'>
         <div className='intro'>
           <TypeWriter text="Hi there, I'm Adisa"/>
           <img src={img} alt='intro_img' className='intro_img'/>
@@ -22,8 +23,7 @@ function App() {
           <Title text="Full-Stack Engineer"/>
           <div className="paragraph">
             <Normal text="Thanks for stopping by. Here's some quick info about me:  I'm a Full-Stack Engineer with experiences working in React + Redux, Typescript, and Javascript, among other technologies. 
-                          Some of my favorite things in life include my Boston Terrier, hiking, and making pizza. If you would like to know more, browse around and reach out!"
-            />
+                          Feel free browse around and reach out!"/>
           </div>
           <Spacer spacing="30px"/>
           <Icon link="https://github.com/adisa-di">
@@ -38,6 +38,10 @@ function App() {
           <Spacer spacing="30px"/>
           <Button text="SEE MY WORK"/>
         </div>
+      </div>
+      <div className='section_2'>
+        {/* <div>Hello</div> */}
+        <Resume/>
       </div>
     </div>
   );

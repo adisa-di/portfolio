@@ -2,7 +2,7 @@
   display: flex;
   position: absolute;
   width: 45%;
-  left: 14%;
+  left: 11%;
   top: 22%;
 }
 
@@ -43,60 +43,60 @@
 
 @media only screen and (min-width: 1700px) {
   .typewriter {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
 }
 
 @media only screen and (min-width: 1550px) and (max-width: 1699px) {
   .typewriter {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
 @media only screen and (min-width: 1330px) and (max-width: 1549px) {
   .typewriter {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1329px) {
   .typewriter {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 
 @media only screen and (min-width: 1160px) and (max-width: 1299px) {
   .typewriter {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
   }
 }
 
 @media only screen and (min-width: 1020px) and (max-width: 1159px) {
   .typewriter {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
 @media only screen and (min-width: 780px) and (max-width: 1019px) {
   .typewriter {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
 @media only screen and (min-width: 620px) and (max-width: 779px) {
   .typewriter {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 
 @media only screen and (min-width: 530px) and (max-width: 619px) {
   .typewriter {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 
 @media only screen and (max-width: 529px) {
   .typewriter {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }

@@ -1,0 +1,48 @@
+.item_container {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 4fr;
+  column-gap: 20px;
+  font-family: "Epilogue", sans-serif;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.outer_circle {
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 5px solid #6f4c5b;
+  background-color: #6f4c5b;
+  background-clip: content-box;
+}
+
+.experience {
+  font-size: 20px;
+  color: #6f4c5b;
+  font-weight: 600;
+}
+
+.date {
+  font-size: 15px;
+  color: #6f4c5b;
+  font-weight: 300;
+}
+
+.content {
+  font-size: 18px;
+  color: #6f4c5b;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.see_more {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #ad97a0;
+}
+
+.see_more:hover {
+  font-weight: 500;
+  cursor: pointer;
+}
