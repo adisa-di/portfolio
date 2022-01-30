@@ -37,16 +37,20 @@ const Contents = ({ items }) => {
 const Item = ({ experience, date, contents, note=null }) => {
   return (
     <div className='item_container'>
-      <div className='outer_circle'></div>
+      <div>
+        <div className='outer_circle'>
+        </div>
+        <div className='line'></div>
+      </div>
       <div>
         <div className='experience'>
           { experience } 
-          <div className='note'>
-            { note }
-          </div>
         </div>
         <div className='date'>
           { date } 
+          <div className='note'>
+            { note }
+          </div>
         </div>
       </div>
       <div className='content'> 

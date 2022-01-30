@@ -5,6 +5,7 @@ const Resume = () => {
   return (
     <div>
       <Item experience="Courier Health"
+            note="Freelance"
             date="Oct 2020 - May 2021"
             contents={[
               "Devliered Courier Health’s MVP Patient Therapy Engagemnt System written in React, TypeScript and AWS Amplify.",
@@ -13,13 +14,14 @@ const Resume = () => {
             ]}
             />
       <Item experience="Sunshine Permaculture"
-            note="(Volunteer)"
+            note="Volunteer"
             date="Sept 2020 - Dec 2021"
             contents={[
               "Assisted in establishing an organic farm in Chiang Mai, Thailand, with the aim of creating a resilient and sustainable food system for local communities."
             ]}
             />
       <Item experience="ActionIQ"
+            note="New York City"
             date="Oct 2018 - Mar 2020"
             contents={[
               "Led a data visualization project to create complex React components that hooked into live data streams from ideation to implementation and delivery.", 
@@ -31,6 +33,7 @@ const Resume = () => {
             ]}
             />
       <Item experience="Blackrock"
+            note="New York City"
             date="Aug 2017 - Oct 2018"
             contents={[
               "Developed a next generation portfolio modeling and risk analytics tool written in AngularJS that allowed users to have a more holistic insight into their portfolio holdings.",
