@@ -34,24 +34,22 @@ const Contents = ({ items }) => {
   )
 }
 
-const Item = ({ experience, date, contents }) => {
+const Item = ({ experience, date, contents, note=null }) => {
   return (
     <div className='item_container'>
       <div className='outer_circle'></div>
       <div>
         <div className='experience'>
           { experience } 
+          <div className='note'>
+            { note }
+          </div>
         </div>
         <div className='date'>
           { date } 
         </div>
       </div>
       <div className='content'> 
-          {/* { contents.map((content, idx) => 
-              <div key={idx} style={{ marginBottom : "10px" }}>
-                {content}
-              </div> 
-          )}  */}
           <Contents items={contents}/>
       </div>
     </div>

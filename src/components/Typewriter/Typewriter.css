@@ -13,7 +13,7 @@
   font-family: "Anonymous Pro", monospace;
   color: white;
   overflow: hidden;
-  border-right: 0.2em solid #f7cc47;
+  border-right: 0.1em solid #f7cc47;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.1em;
@@ -40,7 +40,6 @@
 }
 
 /* Scale font size according to screen */
-
 @media only screen and (min-width: 1700px) {
   .typewriter {
     font-size: 1.8rem;
