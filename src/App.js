@@ -9,6 +9,7 @@ import { TypeWriter } from './components/Typewriter/Typewriter';
 import { Spacer } from './components/Spacer/Spacer';
 import { Button } from './components/Button/Button';
 import { Resume } from './components/Resume/Resume';
+import { Card } from './components/Card/Card';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <TypeWriter text="Hi there, I'm Adisa"/>
           <img src={img} alt='intro_img' className='intro_img'/>
         </div>
-        <div>
+        <div className='info'> 
           <Header text="ADISA NARULA"/>
           <Title text="Full-Stack Engineer"/>
           <div className="paragraph">
@@ -40,8 +41,12 @@ function App() {
         </div>
       </div>
       <div className='section_2'>
-        {/* <div>Hello</div> */}
         <Resume/>
+        <div className='info_cards'>
+          <Card/>
+          <Card/>
+          <Card/>
+        </div>
       </div>
     </div>
   );

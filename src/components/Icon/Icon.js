@@ -1,7 +1,7 @@
 import React from "react";
 import './Icon.css';
 
-const styleSheet = (fontSize="30px") => {
+const styleSheet = (fontSize="24px") => {
   return (
     {
       fontSize,

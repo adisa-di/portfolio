@@ -29,7 +29,6 @@ const Contents = ({ items }) => {
             ? <div onClick={() => setToggle(!toggle)} className="see_more">See More</div>
             : <div onClick={() => setToggle(!toggle)} className="see_more">See Less</div>
       }
-      
     </div>
   )
 }

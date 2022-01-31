@@ -1,0 +1,18 @@
+.card_container {
+  /* width: 50%; */
+  font-size: 14px;
+  display: flex;
+  padding: 30px;
+  color: #6f4c5b;
+  margin: 0px 60px 60px 60px;
+  border-top: 5px solid #6f4c5b;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px -20px #6f4c5b;
+  display: grid;
+  grid-template-columns: 0.15fr 1fr;
+}
+
+.skills_icon {
+  width: 40px;
+  height: 40px;
+}

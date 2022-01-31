@@ -1,8 +1,8 @@
 .typing_container {
   display: flex;
   position: absolute;
-  width: 45%;
-  left: 11%;
+  width: 35%;
+  left: 22%;
   top: 22%;
 }
 
@@ -42,31 +42,31 @@
 /* Scale font size according to screen */
 @media only screen and (min-width: 1700px) {
   .typewriter {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 
 @media only screen and (min-width: 1550px) and (max-width: 1699px) {
   .typewriter {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 
 @media only screen and (min-width: 1330px) and (max-width: 1549px) {
   .typewriter {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1329px) {
   .typewriter {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
 @media only screen and (min-width: 1160px) and (max-width: 1299px) {
   .typewriter {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -78,24 +78,24 @@
 
 @media only screen and (min-width: 780px) and (max-width: 1019px) {
   .typewriter {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 }
 
 @media only screen and (min-width: 620px) and (max-width: 779px) {
   .typewriter {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
 @media only screen and (min-width: 530px) and (max-width: 619px) {
   .typewriter {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
 @media only screen and (max-width: 529px) {
   .typewriter {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
   }
 }
