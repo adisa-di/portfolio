@@ -37,7 +37,7 @@ function App() {
             <SiGmail/>
           </Icon>
           <Spacer spacing="30px"/>
-          <Button text="SEE MY WORK"/>
+          {/* <Button text="SEE MY WORK"/> */}
         </div>
       </div>
       <div className='section_2'>
