@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Item.css';
 
-const DISPLAY_LIM = 3;
+const DISPLAY_LIM = 2;
 
 const Contents = ({ items }) => {
   const [toggle, setToggle] = useState(false);

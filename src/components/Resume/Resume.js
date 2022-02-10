@@ -28,7 +28,7 @@ const Resume = () => {
               date="Oct 2018 - Mar 2020"
               contents={[
                 "Led a data visualization project to create complex React components that hooked into live data streams from ideation to implementation and delivery.", 
-                "Regularly assumed the role of Agile Scrum Master and worked closely with the Product and UX team to identify, prioritize, and groom upcoming features and JIRA tickets.", 
+                "Assumed the role of Agile Scrum Master and worked closely with the Product and UX team to identify, prioritize, and groom upcoming features and JIRA tickets.", 
                 "Implemented third party API integrations and authentication libraries in Scala for clients to target advertising campaigns to large groups of users via channels such as Twitter and Snapchat.", 
                 "Improved runtime of Luigi tasks by improving Redshift queries, which resulted in decreasing the execution time of the process from approximately two hours to fifteen minutes.", 
                 "Enhanced the complex ActionIQ interface by adding the ability for users to easily edit previously constructed marketing campaigns.", 

@@ -1,15 +1,14 @@
 import './App.css';
 
-import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
+import { Card } from './components/Card/Card';
 import { Icon } from './components/Icon/Icon';
 import img from './assets/images/intro_img.png';
-import { Header, Title, Normal } from './components/Text';
-import { TypeWriter } from './components/Typewriter/Typewriter';
 import { Spacer } from './components/Spacer/Spacer';
-import { Button } from './components/Button/Button';
 import { Resume } from './components/Resume/Resume';
-import { Card } from './components/Card/Card';
+import { Header, Title, Normal } from './components/Text';
+import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
+import { TypeWriter } from './components/Typewriter/Typewriter';
 
 function App() {
   return (
