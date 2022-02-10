@@ -10,6 +10,12 @@ import { Header, Title, Normal } from './components/Text';
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
 import { TypeWriter } from './components/Typewriter/Typewriter';
 
+// icons
+import icon_skills from './assets/images/card-icon-skills.png';
+import icon_educ from './assets/images/card-icon-education.png';
+import icon_projs from './assets/images/card-icon-projects.png';
+
+
 function App() {
   return (
     <div className='App'>
@@ -42,9 +48,9 @@ function App() {
       <div className='section_2'>
         <Resume/>
         <div className='info_cards'>
-          <Card/>
-          <Card/>
-          <Card/>
+          <Card title="Skills" icon={icon_skills}/>
+          <Card title="Projects" icon={icon_educ}/>
+          <Card title="Education" icon={icon_projs}/>
         </div>
       </div>
     </div>

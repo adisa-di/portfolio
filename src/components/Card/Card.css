@@ -1,7 +1,7 @@
 .card_container {
   width: 80%;
-  display: grid;
   display: flex;
+  flex-direction: column;
   padding: 30px;
   font-size: 14px;
   color: #6f4c5b;
@@ -13,6 +13,9 @@
 
 .card_header {
   display: flex;
+  font-size: 16px;
+  color: #6f4c5b;
+  font-weight: 600;
   align-items: center;
 }
 
@@ -20,4 +23,17 @@
   width: 40px;
   height: 40px;
   margin-right: 20px;
+}
+
+.learn_more {
+  display: flex;
+  align-items: center;
+}
+
+.learn_more div.plus_button {
+  margin-right: 20px;
+}
+
+.learn_more span {
+  color: #6f4c5b;
 }

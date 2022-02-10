@@ -1,13 +1,20 @@
 import React from 'react';
+import { PlusButton } from '../Button/Button';
 import './Card.css';
-import icon_skills from '../../assets/images/card-icon-skills.png';
 
-const Card = () => {
+const Card = ({ title, icon, description }) => {
   return (
     <div className='card_container'>
       <div className='card_header'>
-        <img src={icon_skills} alt='skills' className='card_icon'/>
-        <div class='card_title'>Skills</div>
+        <img src={icon} alt='skills' className='card_icon'/>
+        <div class='card_title'>{title}</div>
+      </div>
+      <div className='description'>
+        {description}
+      </div>
+      <div className='learn_more'>
+        <PlusButton/>
+        <span>Learn More</span>
       </div>
     </div>
   );

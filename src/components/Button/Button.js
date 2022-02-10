@@ -47,4 +47,13 @@ const Button = ({
   );
 }
 
-export { Button };
+
+const PlusButton = () => {
+  return (
+    <div className='plus_button'>
+      <div className='plus'> + </div>
+    </div>
+  )
+};
+
+export { Button, PlusButton };
