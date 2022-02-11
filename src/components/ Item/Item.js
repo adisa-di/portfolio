@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Item.css';
 
+import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
+
 const DISPLAY_LIM = 2;
 
 const Contents = ({ items }) => {
@@ -38,6 +40,7 @@ const Item = ({ experience, date, contents, note=null }) => {
     <div className='item_container'>
       <div>
         <div className='outer_circle'>
+          {/* <FaGithubAlt/> */}
         </div>
         <div className='line'></div>
       </div>

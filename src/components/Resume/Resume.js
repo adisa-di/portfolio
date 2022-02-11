@@ -2,6 +2,7 @@ import React from 'react';
 import { Item } from '../ Item/Item';
 import './Resume.css';
 
+
 const Resume = () => {
   return (
     <div className='resume'>

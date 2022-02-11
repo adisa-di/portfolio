@@ -6,7 +6,7 @@ import { Icon } from './components/Icon/Icon';
 import img from './assets/images/intro_img.png';
 import { Spacer } from './components/Spacer/Spacer';
 import { Resume } from './components/Resume/Resume';
-import { Header, Title, Normal } from './components/Text';
+import { Title, Normal } from './components/Text';
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
 import { TypeWriter } from './components/Typewriter/Typewriter';
 
@@ -25,11 +25,10 @@ function App() {
           <img src={img} alt='intro_img' className='intro_img'/>
         </div>
         <div className='info'> 
-          <Header text="ADISA NARULA"/>
           <Title text="Full-Stack Engineer"/>
           <div className="paragraph">
             <Normal text="Thanks for stopping by. Here's some quick info about me:  I'm a Full-Stack Engineer with experiences working in React + Redux, Typescript, and Javascript, among other technologies. 
-                          Feel free browse around and reach out!"/>
+                          Feel free to browse around and reach out!"/>
           </div>
           <Spacer spacing="30px"/>
           <Icon link="https://github.com/adisa-di">
@@ -38,7 +37,7 @@ function App() {
           <Icon link="https://www.linkedin.com/in/adisanarula/">
             <FaLinkedinIn/>
           </Icon>
-          <Icon link="mailto:adisan19@gmail.com">
+          <Icon link="mailto:adisanarula19@gmail.com">
             <SiGmail/>
           </Icon>
           <Spacer spacing="30px"/>
@@ -48,9 +47,18 @@ function App() {
       <div className='section_2'>
         <Resume/>
         <div className='info_cards'>
-          <Card title="Skills" icon={icon_skills}/>
-          <Card title="Projects" icon={icon_educ}/>
-          <Card title="Education" icon={icon_projs}/>
+          <Card
+            title="Skills"
+            icon={icon_skills}
+            description="Take a look at the skills I've picked up over the last few years"/>
+          <Card
+            title="Projects"
+            icon={icon_educ}
+            description="Here are some interesting projects I've worked on"/>
+          <Card
+            title="Education"
+            icon={icon_projs}
+            description="Learn more about my education background here"/>
         </div>
       </div>
     </div>

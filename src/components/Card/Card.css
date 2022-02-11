@@ -37,3 +37,12 @@
 .learn_more span {
   color: #6f4c5b;
 }
+
+.card_header {
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
