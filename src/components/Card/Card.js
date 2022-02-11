@@ -2,7 +2,7 @@ import React from 'react';
 import { PlusButton } from '../Button/Button';
 import './Card.css';
 
-const Card = ({ title, icon, description }) => {
+const Card = ({ title, icon, description, children }) => {
   return (
     <div className='card_container'>
       <div className='card_header'>
@@ -12,6 +12,7 @@ const Card = ({ title, icon, description }) => {
       <div className='description'>
         {description}
       </div>
+      { children }
       <div className='learn_more'>
         <PlusButton/>
         <span>Learn More</span>

@@ -8,12 +8,14 @@ import { Spacer } from './components/Spacer/Spacer';
 import { Resume } from './components/Resume/Resume';
 import { Title, Normal } from './components/Text';
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
+import { SiReact } from 'react-icons/si';
 import { TypeWriter } from './components/Typewriter/Typewriter';
 
 // icons
 import icon_skills from './assets/images/card-icon-skills.png';
 import icon_educ from './assets/images/card-icon-education.png';
 import icon_projs from './assets/images/card-icon-projects.png';
+import { ProgressBar } from './components/ProgressBar/ProgressBar';
 
 
 function App() {
@@ -50,7 +52,14 @@ function App() {
           <Card
             title="Skills"
             icon={icon_skills}
-            description="Take a look at the skills I've picked up over the last few years"/>
+            description="Take a look at the skills I've picked up over the last few years">
+              <div style={{ fontSize: "24px" }}>
+                <SiReact/>
+              </div>
+              <ProgressBar/>
+              <ProgressBar/>
+              <ProgressBar/>
+            </Card>
           <Card
             title="Projects"
             icon={icon_educ}
