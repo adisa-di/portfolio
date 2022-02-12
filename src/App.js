@@ -8,7 +8,7 @@ import { Spacer } from './components/Spacer/Spacer';
 import { Resume } from './components/Resume/Resume';
 import { Title, Normal } from './components/Text';
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
-import { SiReact, SiJavascript, SiTypescript } from 'react-icons/si';
+import { SiReact, SiJavascript, SiTypescript, SiScala, SiPython, SiAmazonaws } from 'react-icons/si';
 import { TypeWriter } from './components/Typewriter/Typewriter';
 
 // icons
@@ -50,9 +50,10 @@ function App() {
         <Resume/>
         <div className='info_cards'>
           <Card
+            height="150px"
             title="Skills"
             icon={icon_skills}
-            description="Take a look at the skills I've picked up over the last few years">
+            description="Take a look at the skills I've learned over the last few years">
               <div className='skill_container'>
                 <div className='skill_icon'>
                   <SiReact/>
@@ -71,15 +72,33 @@ function App() {
                 </div>
                 <ProgressBar progress={3}/>
               </div>
+              <div className='skill_container'>
+                <div className='skill_icon'>
+                  <SiScala/>
+                </div>
+                <ProgressBar progress={2}/>
+              </div>
+              <div className='skill_container'>
+                <div className='skill_icon'>
+                  <SiPython/>
+                </div>
+                <ProgressBar progress={3}/>
+              </div>
+              <div className='skill_container'>
+                <div className='skill_icon'>
+                  <SiAmazonaws/>
+                </div>
+                <ProgressBar progress={2}/>
+              </div>
             </Card>
           <Card
             title="Projects"
-            icon={icon_educ}
-            description="Here are some interesting projects I've worked on"/>
-          <Card
-            title="Education"
             icon={icon_projs}
-            description="Learn more about my education background here"/>
+            description="">
+            <span>
+              Check out some of the projects I've worked on on my <a href='https://github.com/adisa-di' target="_blank" rel="noreferrer">Github</a> profile
+            </span>
+          </Card>
         </div>
       </div>
     </div>

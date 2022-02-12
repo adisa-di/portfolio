@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { PlusButton } from '../Button/Button';
+import { ToggleButton } from '../Button/Button';
 import './Card.css';
 
-const Card = ({ title, icon, description, children }) => {
+const Card = ({ title, icon, description, height="100%", children }) => {
 
   const [toggle, setToggle] = useState(false);
 
@@ -15,13 +15,13 @@ const Card = ({ title, icon, description, children }) => {
       </div>
       {
         toggle && 
-          <div className='card_body'>
+          <div className='card_body' style={{ height }}>
             { children }
           </div>
       }
       <div className='learn_more'>
-        <PlusButton onClick={() => setToggle(prev => !prev)}/>
-        <span>Learn More</span>
+        { <ToggleButton onClick={() => setToggle(prev => !prev)} open={toggle} />}
+        <span>{toggle ? 'Learn Less' : 'Learn More'}</span>
       </div>
     </div>
   );

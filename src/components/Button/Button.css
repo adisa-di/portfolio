@@ -34,7 +34,7 @@
   transform: translateY(0);
 }
 
-.plus_button {
+.toggle_button {
   width: 30px;
   height: 30px;
   display: flex;
@@ -42,9 +42,10 @@
   align-items: center;
   justify-content: center;
   background-color: #f0e9e9;
+  margin-right: 10px;
 }
 
-.plus {
+.sign {
   font-weight: 600;
   font-size: 1.2rem;
 }

@@ -45,6 +45,11 @@ const Resume = () => {
                 "Enhanced BlackRock’s Query Language, in ANTLR and Java which reduced the redundancy in the database and increased ease of compliance rule integration and creation in the platform."
                 ]} 
               />
+        <Item experience="NYU"
+              note="New York City"
+              date="Sep 2015 - Oct 2017"
+              contents={[ "Graded and tutored introduction to Computer Science courses" ]} 
+              />
       </div>
     </div>
   );

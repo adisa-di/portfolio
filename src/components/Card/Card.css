@@ -39,6 +39,12 @@
   color: #6f4c5b;
 }
 
+.learn_more div:hover {
+  /* Casues a lot of re-render per frames */
+  cursor: pointer;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+}
+
 .description {
   margin-left: 10px;
   font-weight: normal;
@@ -47,9 +53,9 @@
 
 .card_body {
   margin-bottom: 20px;
-  height: 150px;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  /* justify-content: space-between; */
 }

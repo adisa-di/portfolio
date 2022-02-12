@@ -47,13 +47,13 @@ const Button = ({
   );
 }
 
+const ToggleButton = ({ onClick, open }) => {
 
-const PlusButton = ({ onClick }) => {
   return (
-    <div className='plus_button' onClick={onClick}>
-      <div className='plus'> + </div>
+    <div className='toggle_button' onClick={onClick}>
+      <div className='sign'> {open ? '-' : '+'} </div>
     </div>
   )
 };
 
-export { Button, PlusButton };
+export { Button, ToggleButton };
