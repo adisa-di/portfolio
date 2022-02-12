@@ -7,12 +7,12 @@ const Card = ({ title, icon, description, children }) => {
     <div className='card_container'>
       <div className='card_header'>
         <img src={icon} alt='skills' className='card_icon'/>
-        <div class='card_title'>{title}</div>
+        <div className='card_title'>{title}</div>
+        <div className='description'>{description}</div>
       </div>
-      <div className='description'>
-        {description}
+      <div className='card_body'>
+        { children }
       </div>
-      { children }
       <div className='learn_more'>
         <PlusButton/>
         <span>Learn More</span>

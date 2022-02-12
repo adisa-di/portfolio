@@ -8,7 +8,7 @@ import { Spacer } from './components/Spacer/Spacer';
 import { Resume } from './components/Resume/Resume';
 import { Title, Normal } from './components/Text';
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
-import { SiReact } from 'react-icons/si';
+import { SiReact, SiJavascript, SiTypescript } from 'react-icons/si';
 import { TypeWriter } from './components/Typewriter/Typewriter';
 
 // icons
@@ -53,12 +53,30 @@ function App() {
             title="Skills"
             icon={icon_skills}
             description="Take a look at the skills I've picked up over the last few years">
-              <div style={{ fontSize: "24px" }}>
-                <SiReact/>
+              <div className='skill_container'>
+                <div className='skill_icon'>
+                  <SiReact/>
+                </div>
+                <ProgressBar/>
               </div>
-              <ProgressBar/>
-              <ProgressBar/>
-              <ProgressBar/>
+              <div className='skill_container'>
+                <div className='skill_icon'>
+                  <SiJavascript/>
+                </div>
+                <ProgressBar/>
+              </div>
+              <div className='skill_container'>
+                <div className='skill_icon'>
+                  <SiTypescript/>
+                </div>
+                <ProgressBar/>
+              </div>
+              <div className='skill_container'>
+                <div className='skill_icon'>
+                  <SiTypescript/>
+                </div>
+                <ProgressBar/>
+              </div>
             </Card>
           <Card
             title="Projects"
