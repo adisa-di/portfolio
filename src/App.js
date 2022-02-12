@@ -57,25 +57,19 @@ function App() {
                 <div className='skill_icon'>
                   <SiReact/>
                 </div>
-                <ProgressBar/>
+                <ProgressBar progress={4}/>
               </div>
               <div className='skill_container'>
                 <div className='skill_icon'>
                   <SiJavascript/>
                 </div>
-                <ProgressBar/>
+                <ProgressBar progress={4}/>
               </div>
               <div className='skill_container'>
                 <div className='skill_icon'>
                   <SiTypescript/>
                 </div>
-                <ProgressBar/>
-              </div>
-              <div className='skill_container'>
-                <div className='skill_icon'>
-                  <SiTypescript/>
-                </div>
-                <ProgressBar/>
+                <ProgressBar progress={3}/>
               </div>
             </Card>
           <Card

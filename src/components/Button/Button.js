@@ -48,9 +48,9 @@ const Button = ({
 }
 
 
-const PlusButton = () => {
+const PlusButton = ({ onClick }) => {
   return (
-    <div className='plus_button'>
+    <div className='plus_button' onClick={onClick}>
       <div className='plus'> + </div>
     </div>
   )

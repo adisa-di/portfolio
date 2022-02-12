@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProgressBar.css'
 
-const Bar = ({ filled }) => {
+const Bar = ({ filled=false }) => {
   return (
     filled
       ? <div className='bar filled'></div>
@@ -9,14 +9,17 @@ const Bar = ({ filled }) => {
   )
 }
 
-const ProgressBar = () => {
+const ProgressBar = ({ progress=0 }) => {
+
+  const empty = 5 - progress;
   return (
     <div className='progress_bar'>
-      <Bar filled={true}/>
-      <Bar filled={true}/>
-      <Bar/>
-      <Bar/>
-      <Bar/>
+      {
+        Array(progress).fill(0).map(idx => <Bar filled={true}/>)
+      }
+      {
+        Array(empty).fill(0).map(idx => <Bar/>)
+      }
     </div>
   )
 }
