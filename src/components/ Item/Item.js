@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './Item.css';
 
-import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
-
 const DISPLAY_LIM = 2;
 
 const Contents = ({ items }) => {
@@ -12,7 +10,7 @@ const Contents = ({ items }) => {
     <div>
       { !toggle
           ? items.map((content, idx) => {
-            if (idx > DISPLAY_LIM - 1) return;
+            if (idx > DISPLAY_LIM - 1) return <></>;
             return (
               <div key={idx} style={{ marginBottom : "10px" }}>
                 {content}

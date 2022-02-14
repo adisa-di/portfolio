@@ -13,7 +13,6 @@ import { TypeWriter } from './components/Typewriter/Typewriter';
 
 // icons
 import icon_skills from './assets/images/card-icon-skills.png';
-import icon_educ from './assets/images/card-icon-education.png';
 import icon_projs from './assets/images/card-icon-projects.png';
 import { ProgressBar } from './components/ProgressBar/ProgressBar';
 
