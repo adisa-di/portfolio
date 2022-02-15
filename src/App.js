@@ -49,10 +49,10 @@ function App() {
         <Resume/>
         <div className='info_cards'>
           <Card
-            height="150px"
+            height="160px"
             title="Skills"
             icon={icon_skills}
-            description="Take a look at the skills I've learned over the last few years">
+            description="">
               <div className='skill_container'>
                 <div className='skill_icon'>
                   <SiReact/>
@@ -95,7 +95,7 @@ function App() {
             icon={icon_projs}
             description="">
             <span>
-              Check out some of the projects I've worked on on my <a href='https://github.com/adisa-di' target="_blank" rel="noreferrer">Github</a> profile
+              Check out some of the projects I've worked on on my <a href='https://github.com/adisa-di' target="_blank" rel="noreferrer">Github</a> profile. More projects coming soon!
             </span>
           </Card>
         </div>

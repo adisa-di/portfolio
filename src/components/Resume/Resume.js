@@ -43,7 +43,7 @@ const Resume = () => {
               date="Aug 2017 - Oct 2018"
               contents={[
                 "Developed a next generation portfolio modeling and risk analytics tool written in AngularJS that allowed users to have a more holistic insight into their portfolio holdings.",
-                "Implemented a project which enabled super-users to create global analytic templates that become accessible in all client environments which greatly enhanced the client’s overall experience on the platform.", 
+                "Implemented projects that enabled super-users to create global analytic templates that become accessible in all client environments which greatly enhanced the client’s overall experience on the platform.", 
                 "Enhanced BlackRock’s Query Language, in ANTLR and Java which reduced the redundancy in the database and increased ease of compliance rule integration and creation in the platform."
                 ]} 
               />
