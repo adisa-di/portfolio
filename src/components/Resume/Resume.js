@@ -21,7 +21,9 @@ const Resume = () => {
               note="Volunteer"
               date="Sept 2020 - Dec 2021"
               contents={[
-                "Assisted in establishing an organic farm in Chiang Mai, Thailand, with the aim of creating a resilient and sustainable food system for local communities."
+                <div>
+                  Assisted in establishing an organic farm in Chiang Mai, Thailand, with the aim of creating a resilient and sustainable food system for local communities. Check out our work <a href='https://www.sunshine-permaculture.com/'>here.</a>
+                </div>
               ]}
               />
         <Item experience="ActionIQ"
